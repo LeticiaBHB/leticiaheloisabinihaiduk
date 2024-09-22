@@ -113,7 +113,6 @@ h3 {
     cursor: pointer;
     margin-bottom: 20px; /* Espaço abaixo do botão */
 }
-
 .footer {
     height: 100px; /* Altura do rodapé */
     background: linear-gradient(to right, #b2dbaf, #282635); /* Gradiente misturando as cores */
@@ -123,14 +122,19 @@ h3 {
     color: white; /* Cor do texto */
     font-size: 20px; /* Tamanho do texto */
     width: 100%; /* Garante que o rodapé ocupe toda a largura da tela */
+    position: relative; /* Para garantir que o rodapé fique na parte inferior */
 }
+
+
 .social-links {
     margin-top: 10px; /* Espaço acima dos links */
+    display: flex; /* Usa flexbox para alinhar os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
 }
 
 .social-icon {
-    width: 25px; /* Tamanho fixo para todos os ícones */
-    height: 25px; /* Tamanho fixo para todos os ícones */
+    width: 30px; /* Tamanho fixo para todos os ícones */
+    height: 30px; /* Tamanho fixo para todos os ícones */
     margin: 0 10px; /* Espaço entre os ícones */
     transition: transform 0.2s; /* Efeito suave ao passar o mouse */
 }
@@ -138,4 +142,3 @@ h3 {
 .social-icon:hover {
     transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
 }
-

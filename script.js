@@ -18,11 +18,15 @@ const showInfo = (info) => {
         vetInfo.style.display = 'block'; // Mostra a info da veterinária
         if (window.innerWidth < 768) { // Apenas para telas pequenas
             vetInfo.classList.add('fullscreen'); // Adiciona a classe de tela cheia
+        } else {
+            vetInfo.classList.remove('fullscreen'); // Remove a classe se em tela grande
         }
     } else if (info === 'tech') {
         techInfo.style.display = 'block'; // Mostra a info da tecnologia
         if (window.innerWidth < 768) { // Apenas para telas pequenas
             techInfo.classList.add('fullscreen'); // Adiciona a classe de tela cheia
+        } else {
+            techInfo.classList.remove('fullscreen'); // Remove a classe se em tela grande
         }
     }
 };

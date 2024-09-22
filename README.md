@@ -1,6 +1,6 @@
-| Principal | imagem 1 |imagem 2 |
-|----------|----------|-----------|
-| ![image](https://github.com/user-attachments/assets/5db0571f-c6bb-480d-b652-6d9bf01dd99c)| ![image](https://github.com/user-attachments/assets/c595dc9f-f07e-43e5-8599-ac541045662f)| ![image](https://github.com/user-attachments/assets/f4a1bdd9-8a3e-4a92-a907-0cbe5d86bfdf) |
+| Principal |
+|----------|
+| ![image](https://github.com/user-attachments/assets/5db0571f-c6bb-480d-b652-6d9bf01dd99c)|
 
 
 Copyright (c) 2023 Leticia Heloisa Bini Haiduk
